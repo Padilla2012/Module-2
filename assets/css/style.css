@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    color:hsla(24, 51%, 46%, 0.21);
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  /* <header> */
+  header {
+    padding: 20px 35px;
+    background-color: hsl(246, 51%, 46%);
+  }
+  
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fc5c38;
+    margin: 0;
+    display: inline;
+  }
+  header a {
+    text-decoration: none;
+    color: #fc6f38;
+  }
+  
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+  
+  footer {
+    background: hsla(19, 97%, 60%, 0.414);
+    width: 100%;
+    padding: 100;
+  }
+  
+  footer h2 {
+    display: inline;
+    color: #022176;
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+  }
+  
+  footer a {
+    color: #024e76;
+  }
+  
+  section {
+    padding: 60px;
+  }
+  
+  .intro {
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+  }
+  
+  .contact {
+    text-align: center;
+    background: #024e76;
+  }
+  
+  .contact-info iframe {
+    width: 400px;
+    height: 400px;
+  }
+  
+  .contact-info div {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+  }
+  
+  .contact-info,
+  .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+  }
+  
+  .page-title {
+    color: #fce138;
+    display: inline-block;
+    border-bottom: 4px solid #fce138;
+    padding: 0 80px 15px 80px;
+    font-weight: normal;
+    font-size: 42px;
+    font-style: italic;
+  }
+  
+  
